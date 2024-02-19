@@ -43,7 +43,7 @@
     display: grid;
     justify-self: end;
     line-height: 1.35;
-    max-width: 250px;
+    max-width: 241px;
     font-weight: 400;
     font-style: normal;
  
@@ -207,7 +207,7 @@
 }
 
 .about {
-    display: flex;  
+    display: flex;
 }
 
 .about__logo {
@@ -254,9 +254,6 @@
     width: 100%;
     font-style: normal;
     line-height: 1.35;
-}
-
-.footer__address {
     text-decoration: none;
     text-underline-offset: 4px;
 }
