@@ -30,13 +30,13 @@
     pointer-events: none;
 }
 
-.header__logo{
+.header__logo {
     width: 148px;
     height: 105px;
 }
 
 .header__logo-image {
-    height: 100%;    
+   height: 100%;
 }
 
 .address {
@@ -106,11 +106,11 @@
 
 .no-letter-spacing {
     letter-spacing: 0;
-  }
+}
 
 .cover__description {
     display: flex;
-    align-items: center;   
+    align-items: center;
     padding-left: 78px;
 }
 
@@ -248,7 +248,7 @@
     font-size: 18px;
 }
 
-.address {
+.footer__address {
     display: grid;
     max-width: 240px;
     width: 100%;
