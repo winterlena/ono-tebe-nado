@@ -46,7 +46,6 @@
     max-width: 241px;
     font-weight: 400;
     font-style: normal;
- 
 }
 
 .cover {
@@ -167,8 +166,7 @@
     background-size: cover;
     color: #fff;
     height: 100%;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .card_type_film {
