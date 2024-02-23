@@ -10,7 +10,7 @@
 
 .header__links-list {
     display: flex;
-    gap: 32px;
+    gap: 35px;
 }
 
 .header__links-list-item {
@@ -52,11 +52,10 @@
 .cover {
     background-image: url(../images/cover.jpg);
     position: relative;
-    padding: 165px 50px 50px;
     text-transform: uppercase;
     color: #fff;
     background-size: cover;
-    height: 757px;
+    min-height: 757px;
 }
 
 .overlay {
@@ -69,58 +68,67 @@
 }
 
 .cover__title {
-    position: relative;
-    z-index: 1;
-    padding-bottom: 135px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
     font-size: 100px;
+    font-style: normal;
     font-weight: 700;
-    letter-spacing: 30px;
-    line-height: 100%;
+    text-transform: uppercase;
+    padding-top: 165px;
 }
 
 .aligned-text {
-    display: flex;
-}
-
-.aligned-text_left {
-    line-height: 100%;
-    margin-left: 49px;
-    margin-top: 172px;
+    align-self: flex-start;
+    font-style: normal;
+    letter-spacing: 30px;
+    font-size: 100px;
+    margin-left: 50px;
+    font-weight: 700;
+    line-height: 115%;
 }
 
 .aligned-text_center {
-    justify-content: center;
-    padding: 20px 0;
-    padding-right: 30px;
-    margin-top: 8px;
+    align-self: center;
+    margin: 0 29px 0 0;
+    letter-spacing: 30px;
+    line-height: 99%;
+    max-width: 100%;
 }
 
 .aligned-text_right {
-    justify-content: end;
-    margin: 0 51px;
+  letter-spacing: 30px;
+  margin-right: 21px;
+  max-width: 100%;
 }
 
 .letter-spacing-extended {
     letter-spacing: 60px;
 } 
 
-.no-letter-spacing {
-    letter-spacing: 0;
+.letter-spacing-extended-n {
+    letter-spacing: 60px;
+    align-self: flex-end;
+    line-height: 101%;
 }
 
 .cover__description {
     display: flex;
     align-items: center;
     padding-left: 78px;
+    padding-top: 135px;
+    padding-bottom: 50px;
 }
 
 .cover__description-text {
-    word-spacing: 20px;
+    word-spacing: 19px;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: end;
-    margin-right: 70px;
+    margin-right: 77px;
 }
 
 .bet-button {
@@ -130,7 +138,7 @@
     background: none;
     border: 1px solid #fff;
     color: #fff;
-    padding: 12px 32px;
+    padding: 11px 32px;
 }
 
 .lots {
@@ -168,6 +176,7 @@
     color: #fff;
     height: 100%;
     width: 100%;
+    
 }
 
 .card_type_film {
@@ -191,6 +200,10 @@
     font-size: 22px;
     font-weight: 700;
     line-height: 120%;
+}
+
+.card-link {
+    text-decoration: none;
 }
 
 .card__text {
@@ -244,7 +257,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 178px 50px 90px;
+    padding: 182px 50px 90px;
     font-size: 18px;
 }
 
